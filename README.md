@@ -34,10 +34,10 @@ cargo generate 是一个用于生成项目模板的工具。它可以使用已�
 cargo install cargo-generate
 ```
 
-在我们的课程中，新的项目会使用 `tyr-rust-bootcamp/template` 模版生成基本的代码：
+在我们的课程中，新的项目会使用 `MuzzyZY/rust-template` 模版生成基本的代码：
 
 ```bash
-cargo generate tyr-rust-bootcamp/template
+cargo generate MuzzyZY/rust-template
 ```
 
 ### 安装 pre-commit
@@ -45,7 +45,7 @@ cargo generate tyr-rust-bootcamp/template
 pre-commit 是一个代码检查工具，可以在提交代码前进行代码检查。
 
 ```bash
-pipx install pre-commit
+pip install pre-commit
 ```
 
 安装成功后运行 `pre-commit install` 即可。
